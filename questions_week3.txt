@@ -1,0 +1,5 @@
+0. Besides 4X4, the framework allows the following dimensions : 
+    3X3, 5X5, 6X6, 7X7, 8X8, 9X9.
+1. The game's data structure is represented using a 2-D array (matrix).
+2. The function called is greet().
+3. The functions that I need to implement are : init(), draw(), move(), won().
