@@ -1,0 +1,22 @@
+1.  <stdint.h> is a header file that allows the use of typedefs and macros
+2.  uint8_t stands for unsigned char
+    uint32_t stands for unsigned long
+    int32_t stands for long
+    uint16_t stands for unsigned short
+    These are typedefs defined in <stdint.h> which are used to fill spaces in a file.
+3.  BYTE = 1 byte (8 bits)
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+4.  Hex = 0x424d
+    Decimal = 19778
+    ASCII = BM
+5.  bisize : size of BITMAPINFOHEADER (value = 40)
+    bfsize : size of the whole bmp file
+6.  Negetive biHeight indicates that the bitmap is a top-down DIB with the origin at the upper left corner.
+7.  Ans : biBitCount
+8.  fopen returns null if the file does not exist
+9.  This is because we move the file pointer by 1*sizeof structure 
+10. The padding would become 3
+11. Moves the file pointer to a specific location
+12. Moves the file pointer to a defined offset from the current position.
